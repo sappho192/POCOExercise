@@ -73,4 +73,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Artifact(${{ matrix.os }})
-          path: builds/ninja-multi-vcpkg/Release/
+          path: |
+            builds/ninja-multi-vcpkg/example*/
+            !builds/ninja-multi-vcpkg/example*/CMakeFiles
+            !builds/ninja-multi-vcpkg/example*/RelWithDebInfo
+            !builds/ninja-multi-vcpkg/example*/cmake_install.cmake

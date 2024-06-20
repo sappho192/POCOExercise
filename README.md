@@ -27,13 +27,13 @@ Supports `Linux`/`macOS`/`Windows` on `x64` and `arm64` platforms.
 # 2. Example list
 
 - Example 1: Simple TCP Server/Client
-- (WIP) Example 2: WebSocket Server/Client
+- Example 2: WebSocket Server/Client
 
 # 3. Setup Guide
 
 ## 3.1 Windows-specific setup guide
 
-If you are developing in Linux or macOS, skip to [Section 3.2](#52-setting-up-vscode-extensions).
+If you are developing in Linux or macOS, skip to [Section 3.2](#32-setting-up-vscode-extensions).
 
 ### 3.1.1 Install Build Tools for Visual Studio 2022
 

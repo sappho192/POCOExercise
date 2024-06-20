@@ -4,6 +4,11 @@
   "dependencies": [
     "fmt",
     "boost-config",
-    "sqlite3"
+    {
+      "name": "poco",
+      "features": [
+        "netssl"
+      ]
+    }
   ]
 }

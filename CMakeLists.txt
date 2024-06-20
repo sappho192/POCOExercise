@@ -12,6 +12,8 @@ project(poco_exercise)
 # set_property(TARGET main PROPERTY CXX_STANDARD 23)
 add_subdirectory(src/example1_server example1_server)
 add_subdirectory(src/example1_client example1_client)
+add_subdirectory(src/example2_server example2_server)
+add_subdirectory(src/example2_client example2_client)
 
 # tests target
 enable_testing()
